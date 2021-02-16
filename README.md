@@ -6,7 +6,7 @@ Step 1 - Clone this project to your local machine
 ```
 git clone https://github.com/quivsoth/springboot-configmap
 ```
-
+<br/><br/>
 
 Step 2 (Optional) - Test if the build is running
 ```
