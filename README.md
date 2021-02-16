@@ -6,14 +6,14 @@ Step 1 - Clone this project to your local machine
 ```
 git clone https://github.com/quivsoth/springboot-configmap
 ```
-<br/><br/>
+/
 
 Step 2 (Optional) - Test if the build is running
 ```
 - ./mvnw clean spring-boot:run
 - Navigate to http://localhost:8080/greet/{name}
 ```
-
+/
 
 Step 3 - Set up the desired variable you would like to be displayed in a config map
 ```
