@@ -1,0 +1,11 @@
+metadata:
+  labels:
+    app.openshift.io/runtime: spring-boot
+    app.kubernetes.io/part-of: exelon-poc
+spec:
+  template:
+    spec:
+      containers:
+        - env:
+            - name: JAVA_DEBUG
+              value: "true"
