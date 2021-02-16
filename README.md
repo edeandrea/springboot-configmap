@@ -9,14 +9,14 @@ git clone https://github.com/quivsoth/springboot-configmap
 
 - Step 2 (Optional) - Test if the build is running
 ```
-./mvnw clean spring-boot:run
-Navigate to http://localhost:8080/greet/{name}
+- ./mvnw clean spring-boot:run
+- Navigate to http://localhost:8080/greet/{name}
 ```
 
 - Step 3 - Set up the desired variable you would like to be displayed in a config map
 ```
-/src/main/jkube/configmap.yaml
-myprop: [value]
+- /src/main/jkube/configmap.yaml
+- myprop: [value]
 ```
 
 - Step 4 (Optional) - Review the Role Bindings to ensure the namespaces match your project
