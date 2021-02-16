@@ -41,9 +41,9 @@ oc new-project exelon-poc \
 ```
 <br/>
 
-Step 7 - From the parent of the /springboot-configmap folder, build the project to OCP, this will create the configmap and the rolebinding
+Step 7 - From the root of the /springboot-configmap folder, build the project to OCP, this will create the configmap and the rolebinding
 ```
-/mvnw -Popenshift -DskipTests oc:deploy
+./mvnw -Popenshift -DskipTests oc:deploy
 ```
 <br/>
 
