@@ -2,13 +2,13 @@
 
 ## This is a quick sample of how to use a Spring Boot App with OpenShift ConfigMaps.
 
-- Step 1 | Clone this project to your local machine
+Step 1 | Clone this project to your local machine
 ```
 git clone https://github.com/quivsoth/springboot-configmap
 ```
 
 
-- Step 2 (Optional) | Test if the build is running
+Step 2 (Optional) | Test if the build is running
 ```
 - ./mvnw clean spring-boot:run
 - Navigate to http://localhost:8080/greet/{name}
