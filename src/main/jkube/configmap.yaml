@@ -5,4 +5,5 @@ metadata:
 data:
   logging.level.root: INFO
   myprop: Hola Exelon!!
+  poc.welcome-message: Hola Exelon!!
   spring.cloud.kubernetes.config.enabled: 'true'
