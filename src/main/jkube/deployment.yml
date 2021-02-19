@@ -7,5 +7,21 @@ spec:
     spec:
       containers:
         - env:
+            - name: SPRING_CONFIG_ADDITIONALLOCATION
+              value: file:/config/
             - name: JAVA_DEBUG
               value: "true"
+          volumeMounts:
+            - name: app-config
+              mountPath: /config
+          resources:
+            requests:
+              cpu: 500m
+              memory: 512Mi
+            limits:
+              cpu: '1'
+              memory: 1Gi
+      volumes:
+        - name: app-config
+          configMap:
+            name: exelon-poc

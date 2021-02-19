@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: exelon-poc
 data:
-  logging.level.root: INFO
-  myprop: Hola Exelon!!
-  poc.welcome-message: Hola Exelon!!
-  spring.cloud.kubernetes.config.enabled: 'true'
+  application.properties: |
+    logging.level.root=INFO
+    myprop=Hola!!
+    poc.welcome-message=Hola!!
