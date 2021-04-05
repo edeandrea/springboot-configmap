@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>exelondemo</artifactId>
+	<artifactId>springboot-configmap</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>exelondemo</name>
-	<description>Exelon Demo project for Spring Boot</description>
+	<name>springboot-configmap</name>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 		<jkube-maven-plugin.version>1.0.2</jkube-maven-plugin.version>

@@ -22,22 +22,16 @@ Step 3 - Set up the desired variable you would like to be displayed in a config 
 ```
 <br/>
 
-Step 4 (Optional) - Review the Role Bindings to ensure the namespaces match your project
-```
-/src/main/jkube/rolebinding.yaml
-```
-<br/>
-
-Step 5 - Log in to your OCP instance
+Step 4 - Log in to your OCP instance
 ```
 oc login [options] -user -password
 ```
 <br/>
 
-Step 6 - Create a new Project or go to an existing project (please the default namespace for RoleBinding is exelon-poc), if you create/use a new project you will need to change the RoleBinding.yaml namespace (step 4) to reflect this
+Step 5 - Create a new Project or go to an existing project
 ```
-oc new-project exelon-poc \
-    --description="POC test for Exelon" --display-name="Exelon POC"
+oc new-project poc \
+    --description="POC test" --display-name="POC"
 ```
 <br/>
 

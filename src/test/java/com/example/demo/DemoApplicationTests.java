@@ -1,10 +1,11 @@
-package com.example.exelondemo;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
+
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExelondemoApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {

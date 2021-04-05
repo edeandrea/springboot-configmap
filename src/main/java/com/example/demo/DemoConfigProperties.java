@@ -1,4 +1,4 @@
-package com.example.exelondemo;
+package com.example.demo;
 
 import javax.validation.constraints.NotEmpty;
 
