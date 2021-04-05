@@ -7,3 +7,4 @@ data:
   myprop: Hola POC!!
   poc.welcome-message: Hola POC!!
   spring.cloud.kubernetes.config.enabled: 'true'
+  spring.cloud.kubernetes.reload.enabled: 'true'
