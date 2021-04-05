@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  generatedName: springboot-configmap-
+  generateName: springboot-configmap-
 projects:
   - name: springboot-configmap-mount
     source:
