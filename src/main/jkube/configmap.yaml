@@ -2,6 +2,8 @@ kind: ConfigMap
 apiVersion: v1
 metadata:
   name: poc
+  labels:
+    spring.cloud.kubernetes.config: true
 data:
   logging.level.root: INFO
   myprop: Hola POC!!
