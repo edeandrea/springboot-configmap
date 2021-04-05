@@ -1,7 +1,7 @@
 metadata:
   labels:
     app.openshift.io/runtime: spring-boot
-    app.kubernetes.io/part-of: exelon-poc
+    app.kubernetes.io/part-of: poc
 spec:
   template:
     spec:

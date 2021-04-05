@@ -1,4 +1,4 @@
-package com.example.exelondemo;
+package com.example.demo;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
