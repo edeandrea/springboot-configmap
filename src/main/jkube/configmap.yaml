@@ -6,7 +6,4 @@ metadata:
     spring.cloud.kubernetes.config: true
 data:
   logging.level.root: INFO
-  myprop: Hola POC!!
   poc.welcome-message: Hola POC!!
-  spring.cloud.kubernetes.config.enabled: 'true'
-  spring.cloud.kubernetes.reload.enabled: 'true'

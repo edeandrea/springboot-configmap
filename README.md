@@ -36,7 +36,7 @@ oc login [options] -user -password
 
 Step 6 - Create a new Project or go to an existing project (please the default namespace for RoleBinding is refresh-poc), if you create/use a new project you will need to change the RoleBinding.yaml namespace (step 4) to reflect this
 ```
-oc new-project refresh--poc \
+oc new-project refresh-poc \
     --description="POC test" --display-name="Refresh POC"
 ```
 <br/>
